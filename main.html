@@ -8,6 +8,47 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method="post">
+		<div>
+			<label for="name">Name</label>
+			<input id="name" type="text" required>
+		</div>
+		<div>
+			<label for="email">Email</label>
+			<input id="email" type="email" required>
+		</div>
+		<label for="radio">Gender</label>
+		<div>
+			<label for="radio">Male</label>
+			<input id="radio" type="radio" name="gender" value="male" required>
+			<label for="radio">Female</label>
+			<input id="radio" type="radio" name="gender" value="female" required>
+		</div>
+		<div>
+			<label for="cars">Cars Brands</label>
+			<select>
+				<option>Options</option>
+				<option>BMW</option>
+				<option>Audi</option>
+				<option>Mercedez</option>
+			</select>
+		</div>
+		<div>
+			<label for="carage">Car Age</label>
+			<input id="carage" type="number" required>
+		</div>
+		<div>
+			<label for="drop">Date of Purchase (dop)</label>
+			<input id="drop" type="date" required>
+		</div>
+		<div>
+			<label for="password">Password</label>
+			<input id="password" type="password" required>
+		</div>
+		<div>
+			<button type="submit">Submit</button>
+		</div>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
